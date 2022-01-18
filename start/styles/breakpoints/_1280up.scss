@@ -1,0 +1,16 @@
+// Stylesheet: 1280px以上のモニタで適用
+
+.world {
+  &__inner {
+    padding: 50px 150px;
+  }
+}
+.popular {
+  &__item {
+    flex-basis: 23%;
+  }
+}
+// サイドバー要素を表示する
+.side {
+  display: block;
+}
