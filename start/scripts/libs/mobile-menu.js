@@ -15,7 +15,13 @@ class MobileMenu {
   // プライベートメソッドにする修正や保守のしやすさのため
   _getEventType() {
     // クリックかタッチかでわける
-    return window.ontouchstart ? "touchstart" : "click";
+      const isTouchCapable =
+        "ontouchstart" in window ||
+        (window.DocumentTouch && document instanceof window.DocumentTouch) ||
+        navigator.maxTouchPoints > 0 ||
+        window.navigator.msMaxTouchPoints > 0;
+  
+      return isTouchCapable ? "touchstart" : "click";
   }
 
   _toggle() {
