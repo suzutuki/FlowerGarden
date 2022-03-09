@@ -41,4 +41,3 @@ class ScrollObserver {
       this.io.disconnect();
     }
   }
-  
