@@ -20,7 +20,6 @@ class MobileMenu {
         (window.DocumentTouch && document instanceof window.DocumentTouch) ||
         navigator.maxTouchPoints > 0 ||
         window.navigator.msMaxTouchPoints > 0;
-  
       return isTouchCapable ? "touchstart" : "click";
   }
 
