@@ -3,8 +3,8 @@ JSとSCSS学習結果をアウトプットするために作成しました。
 
 ## 使用技術
 
-・JavaScript
-・SCSS
+・JavaScript<br>
+・SCSS<br>
 
 ## インフラ
 ・Netlify
