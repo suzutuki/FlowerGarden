@@ -7,8 +7,9 @@ JavaScript
 SCSS
 Netlify
 
-アプリケーション内で使用している技術一覧
-1:JavaScript
+##アプリケーション内で使用している技術一覧
+
+###1:JavaScript
 
     ヒーロースライダー機能(Swiper)
 
