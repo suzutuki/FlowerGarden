@@ -1,15 +1,15 @@
 # FlowerGarden
 JSとSCSS学習結果をアウトプットするために作成しました。
 
-使用技術
+##使用技術
 
 JavaScript
 SCSS
 Netlify
 
-##アプリケーション内で使用している技術一覧
+## アプリケーション内で使用している技術一覧
 
-###1:JavaScript
+### 1:JavaScript
 
     ヒーロースライダー機能(Swiper)
 
