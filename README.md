@@ -1,11 +1,13 @@
 # FlowerGarden
 JSとSCSS学習結果をアウトプットするために作成しました。
 
-##使用技術
+## 使用技術
 
-JavaScript
-SCSS
-Netlify
+・JavaScript
+・SCSS
+
+## インフラ
+・Netlify
 
 ## アプリケーション内で使用している技術一覧
 
